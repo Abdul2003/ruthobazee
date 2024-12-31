@@ -175,71 +175,71 @@ if (btnBackToTop) {
 */
 
 // // Select all elements with the class 'glide'
-// const glideElements = document.querySelectorAll(".glide");
+const glideElements = document.querySelectorAll(".glide");
 
-// // Loop through each element and create a Glide instance
-// if (glideElements.length > 0) {
-//   // Create an object to store the options for each class
-//   const glideOptions = {
-//     glideHighLinear: {
-//       direction: textDirectionOfTheDom,
-//       type: "carousel",
-//       focusAt: "center",
-//       startAt: 4,
-//       perView: 6,
-//       breakpoints: {
-//         1400: { perView: 5 },
-//         1200: { perView: 4 },
-//         992: { perView: 3 },
-//         768: { perView: 2 },
-//         576: { perView: 1 },
-//       },
-//       autoplay: true,
-//       animationDuration: 3000,
-//       animationTimingFunc: "linear",
-//     },
+// Loop through each element and create a Glide instance
+if (glideElements.length > 0) {
+  // Create an object to store the options for each class
+  const glideOptions = {
+    glideHighLinear: {
+      direction: textDirectionOfTheDom,
+      type: "carousel",
+      focusAt: "center",
+      startAt: 4,
+      perView: 6,
+      breakpoints: {
+        1400: { perView: 5 },
+        1200: { perView: 4 },
+        992: { perView: 3 },
+        768: { perView: 2 },
+        576: { perView: 1 },
+      },
+      autoplay: true,
+      animationDuration: 3000,
+      animationTimingFunc: "linear",
+    },
 
-//     glideLowGap: {
-//       direction: textDirectionOfTheDom,
-//       type: "carousel",
-//       perView: 2.75,
-//       focusAt: 0,
-//       autoplay: 3000,
-//       gap: 20,
-//       breakpoints: {
-//         1400: { perView: 2.5 },
-//         1200: { perView: 2.1 },
-//         992: { perView: 1.5 },
-//         768: { perView: 1.25 },
-//         576: { perView: 1 },
-//       },
-//     },
+    glideLowGap: {
+      direction: textDirectionOfTheDom,
+      type: "carousel",
+      perView: 2.75,
+      focusAt: 0,
+      autoplay: 3000,
+      gap: 20,
+      breakpoints: {
+        1400: { perView: 2.5 },
+        1200: { perView: 2.1 },
+        992: { perView: 1.5 },
+        768: { perView: 1.25 },
+        576: { perView: 1 },
+      },
+    },
 
-//     // Add more classes and options as needed
-//   };
+    // Add more classes and options as needed
+  };
 
-//   glideElements.forEach((element) => {
-//     const classList = element.classList;
-//     const className = classList[1];
-//     const option = glideOptions[className];
+  glideElements.forEach((element) => {
+    const classList = element.classList;
+    const className = classList[1];
+    const option = glideOptions[className];
 
-//     // Create and mount the Glide instance
-//     const glide = new Glide(element, option);
-//     glide.mount();
+    // Create and mount the Glide instance
+    const glide = new Glide(element, option);
+    glide.mount();
 
-//     let glideArrowRight = element.querySelector(".glide__arrow--right");
-//     let glideArrowLeft = element.querySelector(".glide__arrow--left");
+    let glideArrowRight = element.querySelector(".glide__arrow--right");
+    let glideArrowLeft = element.querySelector(".glide__arrow--left");
 
-//     if (glideArrowRight) {
-//       glideArrowRight.addEventListener("click", () => {
-//         glide.go(">");
-//       });
-//     }
+    if (glideArrowRight) {
+      glideArrowRight.addEventListener("click", () => {
+        glide.go(">");
+      });
+    }
 
-//     if (glideArrowLeft) {
-//       glideArrowLeft.addEventListener("click", () => {
-//         glide.go("<");
-//       });
-//     }
-//   });
-// }
+    if (glideArrowLeft) {
+      glideArrowLeft.addEventListener("click", () => {
+        glide.go("<");
+      });
+    }
+  });
+}
