@@ -10,14 +10,8 @@
 .description {
   font-size: 30px;
 }
-/* .col-container {
-  height: 600px;
-} */
 
 @media (min-width: 992px) {
-  /* .description {
-    transform: translateY(20%);
-  } */
 }
 @media (max-width: 992px) {
   .description {
