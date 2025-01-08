@@ -67,6 +67,9 @@ iframe {
 
   /*   object-position: 0px 0px 0%; */
 }
+.fta-cover {
+  object-position: 0px 25%;
+}
 
 .c-item {
   height: 600px;
@@ -127,23 +130,7 @@ iframe {
   display: none;
   transition: 0.4s;
 }
-/*
 
-.c-item:hover > .carousel-caption > .caption-description {
-  display: block;
-  transition: 0.4s;
-} */
-
-/* .c-item:hover,
-.c-item:active > .carousel-caption > .caption-title {
-  display: none;
-  transition: 0.4s;
-}
-.c-item:hover,
-.c-item:active > .carousel-caption > .caption-description {
-  display: block;
-  transition: 0.4s;
-} */
 .icon-container {
   border-radius: 100%;
   width: 32px;
@@ -170,13 +157,7 @@ iframe {
     display: flex;
     justify-content: start;
   }
-  .container-parent {
-    /* margin-left: 0%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%; */
-  }
+
   .title-container {
     width: 100%;
     justify-content: center;

@@ -17,7 +17,7 @@
     <meta name="generator" content="Bootstrap" />
 
     <!-- Change the text within the <title> tag to match the webpage's content -->
-    <title>FTA Community</title>
+    <title>Ruth Obazee</title>
 
     <!-- 
         Set the website's favicon and Apple touch icon using the files in the assets/logo folder. You can change these files to your own icons by replacing them with the same names and sizes.
@@ -62,7 +62,6 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
 
     <link rel="stylesheet" href="./assets/css/style1.css" />
-    <link rel="stylesheet" href="./assets/css/fta.css" />
 
     <!-- FONT AWESOME CDN FOR ICONS -->
     <link
@@ -77,7 +76,7 @@
 
     <!-- Open Graph Meta Tags for Social Sharing -->
     <!-- Update the 'title' and 'description' content below to enhance social sharing -->
-    <meta property="og:title" content="FTA community" />
+    <meta property="og:title" content="Ruth Obazee" />
     <meta
       property="og:description"
       content="Inspiring minds, shaping stories, and empowering authors to bring their visions to life."
@@ -178,7 +177,8 @@
               >
                 <li class="nav-item ms-xl-auto" data-bs-dismiss="offcanvas">
                   <a
-                    href="index.html"
+                    href="javascript:;"
+                    onclick="scrollToSection('#home')"
                     class="nav-link rounded-3 px-3 text-base fw-semibold leading-6 text-body-emphasis bg-body-secondary-hover"
                   >
                     Home
@@ -187,13 +187,21 @@
 
                 <li class="nav-item" data-bs-dismiss="offcanvas">
                   <a
-                    href="services.html"
+                    href="javascript:;"
+                    onclick="scrollToSection('#services')"
                     class="nav-link rounded-3 px-3 text-base fw-semibold leading-6 text-body-emphasis bg-body-secondary-hover"
                   >
                     Services
                   </a>
                 </li>
-
+                <li class="nav-item" data-bs-dismiss="offcanvas">
+                  <a
+                    href="ro.html"
+                    class="nav-link rounded-3 px-3 text-base fw-semibold leading-6 text-body-emphasis bg-body-secondary-hover"
+                  >
+                    RO Publishing
+                  </a>
+                </li>
                 <li class="nav-item" data-bs-dismiss="offcanvas">
                   <a
                     href="fta.html"
@@ -205,7 +213,8 @@
 
                 <li class="nav-item" data-bs-dismiss="offcanvas">
                   <a
-                    href="index.html#faqs"
+                    href="javascript:;"
+                    onclick="scrollToSection('#faqs')"
                     class="nav-link rounded-3 px-3 text-base fw-semibold leading-6 text-body-emphasis bg-body-secondary-hover"
                   >
                     FAQs
@@ -219,497 +228,369 @@
                     About / Contact
                   </a>
                 </li>
-                <!-- <li class="nav-item ms-xl-auto" data-bs-dismiss="offcanvas">
-                  <a
-                    href="mailto:contact@example.com"
-                    class="btn btn-primary text-white btn-lg rounded-3 px-3 text-base fw-semibold leading-6 w-100"
-                  >
-                    Get in touch!
-                  </a>
-                </li> -->
               </ul>
             </div>
           </div>
         </div>
       </nav>
     </div>
-    <div id="home" class="d-flex align-items-center position-relative">
-      <!--FTA SECTION -->
-      <div
-        id="fta-section"
-        class="container-fluid justify-content-center d-flex text-center mt-8 p-lg-3 p-xl-5"
-      >
+
+    <!-- Hero -->
+    <div id="home" class="d-flex align-items-center position-relative"></div>
+
+    <!-- services -->
+    <div id="services" class="overflow-hidden py-7 py-sm-8 py-xl-9">
+      <div class="container">
         <div>
           <div class="mx-auto max-w-2xl text-center">
+            <h2
+              class="m-0 text-primary-emphasis text-base leading-7 fw-semibold"
+            >
+              My services
+            </h2>
             <p
               class="m-0 mt-2 text-body-emphasis text-4xl tracking-tight fw-bold"
             >
-              FTA Community
+              Work Services.
             </p>
             <p class="m-0 mt-4 text-body text-lg leading-8">
-              Meet And Interact With Other Authors.
+              Coaching Services Tailored for Excellence.
             </p>
           </div>
-          <div class="container justify-content-center d-flex text-center mt-5">
-            <div class="row row-cols-lg-2 row-cols-1">
-              <div class="col d-flex align-items-center">
-                <section>
-                  <p class="description">
-                    A supportive space for aspiring writers taking their first
-                    steps toward publishing.
-                  </p>
-                </section>
-              </div>
-              <div class="col">
-                <img
-                  src="./assets/img/fta1.jpg"
-                  class="intro-image"
-                  alt="woman wearing glasses"
-                />
-              </div>
-
-              <div class="col mt-7">
-                <img
-                  src="./assets/img/fta2.jpg"
-                  class="intro-image"
-                  alt="man wearing glasses"
-                />
-              </div>
-              <div class="col d-flex align-items-center">
-                <section>
-                  <p class="description">
-                    Share your progress, ask questions, and connect with fellow
-                    writers who understand the journey.
-                  </p>
-                </section>
-              </div>
-              <div class="col mt-7 d-flex align-items-center">
-                <section>
-                  <p class="description">
-                    Whether you’re brainstorming ideas, polishing your
-                    manuscript, or navigating the publishing process, we’re here
-                    to guide and cheer you on!
-                  </p>
-                </section>
-              </div>
-              <div class="col mt-0 mt-lg-7">
-                <img
-                  src="./assets/img/fta4.jpg"
-                  class="intro-image-long"
-                  alt="woman wearing glasses"
-                />
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-    <div class="fta-container mt-7">
-      <div class="mx-auto max-w-2xl text-center">
-        <p class="m-0 mt-2 text-body-emphasis text-4xl tracking-tight fw-bold">
-          FTA Community Members
-        </p>
-        <p class="m-0 mt-4 text-body text-lg leading-8">Meet Our Members.</p>
-      </div>
-      <div class="container">
-        <div class="row row-cols-lg-3 row-cols-sm-2 text-center">
-          <div class="col p-3 d-flex justify-content-center">
-            <div class="card" style="width: 18rem">
-              <img
-                class="card-img-top"
-                src="./assets/img/woman.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Member Name</h5>
-                <p class="card-text">Member</p>
-                <a
-                  href="#"
-                  class="btn btn-lg btn-primary text-white text-sm fw-semibold"
-                  >Social Media</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col p-3 d-flex justify-content-center">
-            <div class="card" style="width: 18rem">
-              <img
-                class="card-img-top"
-                src="./assets/img/woman.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Member Name</h5>
-                <p class="card-text">Member</p>
-                <a
-                  href="#"
-                  class="btn btn-lg btn-primary text-white text-sm fw-semibold"
-                  >Social Media</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col p-3 d-flex justify-content-center">
-            <div class="card" style="width: 18rem">
-              <img
-                class="card-img-top"
-                src="./assets/img/woman.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Member Name</h5>
-                <p class="card-text">Member</p>
-                <a
-                  href="#"
-                  class="btn btn-lg btn-primary text-white text-sm fw-semibold"
-                  >Social Media</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col p-3 d-flex justify-content-center">
-            <div class="card" style="width: 18rem">
-              <img
-                class="card-img-top"
-                src="./assets/img/woman.jpg"
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Member Name</h5>
-                <p class="card-text">Member</p>
-                <a
-                  href="#"
-                  class="btn btn-lg btn-primary text-white text-sm fw-semibold"
-                  >Social Media</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="overflow-hidden py-7 py-sm-8 py-xl-9">
-        <div class="container">
-          <div class="glide glideLowGap">
-            <div class="max-w-2xl mb-5">
-              <h2
-                class="m-0 text-primary-emphasis text-base leading-7 fw-semibold"
-              >
-                FTA Community Testimonies
-              </h2>
+        <div>
+          <div
+            class="row row-cols-1 row-cols-xl-3 gy-5 gx-xl-4 mt-1 justify-content-center justify-content-xl-between"
+          >
+            <div class="col pt-5 pt-xl-4">
               <div
-                class="m-0 mt-2 text-body-emphasis text-4xl tracking-tight fw-bold"
+                class="max-w-xl mx-auto mx-xl-0"
+                data-aos-delay="0"
+                data-aos="fade"
+                data-aos-duration="1000"
               >
-                Hear What The Members Have To Say.
+                <div class="ratio" style="--bs-aspect-ratio: 66.66%">
+                  <img
+                    src="./assets/img/book.jpg"
+                    class="object-fit-cover"
+                    alt="Service image"
+                    loading="lazy"
+                  />
+                </div>
+
+                <h3
+                  class="m-0 mt-4 text-body-emphasis text-lg leading-6 fw-semibold"
+                >
+                  Book Development
+                </h3>
+
+                <!-- Remove line-clamp-2 if you need more lines or add line-clamp-3 -->
+                <ul class="m-0 mt-3 text-body-secondary text-sm leading-6">
+                  <li>Concept brainstorming and story structure planning.</li>
+                  <li>
+                    Guidance on writing processes for fiction and nonfiction.
+                  </li>
+                  <li>
+                    Editing support to refine manuscripts for readability and
+                    marketability.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col pt-5 pt-xl-4">
+              <div
+                class="max-w-xl mx-auto mx-xl-0"
+                data-aos-delay="0"
+                data-aos="fade"
+                data-aos-duration="1000"
+              >
+                <div class="ratio" style="--bs-aspect-ratio: 66.66%">
+                  <img
+                    src="./assets/img/publish.jpg"
+                    class="object-fit-cover"
+                    alt="Service image"
+                    loading="lazy"
+                  />
+                </div>
+
+                <h3
+                  class="m-0 mt-4 text-body-emphasis text-lg leading-6 fw-semibold"
+                >
+                  Publishing Guidance
+                </h3>
+
+                <!-- Remove line-clamp-2 if you need more lines or add line-clamp-3 -->
+                <ul class="m-0 mt-3 text-body-secondary text-sm leading-6">
+                  <li>
+                    Assistance with traditional and self-publishing options.
+                  </li>
+                  <li>Formatting, cover design, and ISBN procurement.</li>
+                  <li>
+                    Vendor recommendations (editors, designers, and
+                    distributors).
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col pt-5 pt-xl-4">
+              <div
+                class="max-w-xl mx-auto mx-xl-0"
+                data-aos-delay="100"
+                data-aos="fade"
+                data-aos-duration="1000"
+              >
+                <div class="ratio" style="--bs-aspect-ratio: 66.66%">
+                  <img
+                    src="./assets/img/bg/bg7.jpg"
+                    class="object-fit-cover"
+                    alt="Service image"
+                    loading="lazy"
+                  />
+                </div>
+
+                <h3
+                  class="m-0 mt-4 text-body-emphasis text-lg leading-6 fw-semibold"
+                >
+                  Marketing Strategy
+                </h3>
+
+                <!-- Remove line-clamp-2 if you need more lines or add line-clamp-3 -->
+                <ul class="m-0 mt-3 text-body-secondary text-sm leading-6">
+                  <li>Creating a personalized book marketing plan.</li>
+                  <li>Social media promotion and author branding tips.</li>
+                  <li>Launch strategies and ongoing book sales support.</li>
+                </ul>
               </div>
             </div>
 
-            <div class="position-lg-absolute top-0 end-0">
-              <div class="glide__arrows" data-glide-el="controls">
-                <button
-                  class="glide__arrow glide__arrow--left btn text-body-emphasis p-0 rounded-circle rtl-flip"
-                  data-glide-dir="<"
+            <div class="col pt-5 pt-xl-4">
+              <div
+                class="max-w-xl mx-auto mx-xl-0"
+                data-aos-delay="200"
+                data-aos="fade"
+                data-aos-duration="1000"
+              >
+                <div class="ratio" style="--bs-aspect-ratio: 66.66%">
+                  <img
+                    src="./assets/img/coaching.jpg"
+                    class="object-fit-cover"
+                    alt="Service image"
+                    loading="lazy"
+                  />
+                </div>
+
+                <h3
+                  class="m-0 mt-4 text-body-emphasis text-lg leading-6 fw-semibold"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="40"
-                    height="40"
-                    fill="currentColor"
-                    class="bi bi-arrow-left-circle"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z"
-                    />
-                  </svg>
-                </button>
-                <button
-                  class="glide__arrow glide__arrow--right btn text-body-emphasis p-0 rounded-circle rtl-flip"
-                  data-glide-dir=">"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="40"
-                    height="40"
-                    fill="currentColor"
-                    class="bi bi-arrow-right-circle"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"
-                    />
-                  </svg>
-                </button>
+                  Workshops & Coaching
+                </h3>
+
+                <!-- Remove line-clamp-2 if you need more lines or add line-clamp-3 -->
+                <ul class="m-0 mt-3 text-body-secondary text-sm leading-6">
+                  <li>One-on-one author coaching sessions.</li>
+                  <li>
+                    Writing workshops and webinars on publishing and book
+                    promotion.
+                  </li>
+                </ul>
               </div>
             </div>
-
-            <div class="glide__track" data-glide-el="track">
-              <ul class="glide__slides">
-                <li class="glide__slide h-auto">
-                  <div class="h-100 py-5">
-                    <div
-                      class="h-100 p-4 p-xl-5 bg-body d-flex flex-column rounded-3 rounded-sm-4 rounded-xl-5 shadow-sm"
-                    >
-                      <div class="text-body-emphasis">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="45"
-                          height="45"
-                          fill="currentColor"
-                          class="ms-n2 bi bi-quote rtl-flip"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
-                          />
-                        </svg>
-                      </div>
-
-                      <p class="text-body text-base leading-7 my-4">
-                        Transformed my web presence with their stellar design
-                        and dev services—truly a cut above the rest!
-                      </p>
-
-                      <div
-                        class="d-flex align-items-center column-gap-3 mt-auto"
-                      >
-                        <img
-                          src="./assets/img/small-team/st1.jpg"
-                          height="40"
-                          width="40"
-                          class="img-fluid rounded-circle"
-                          alt="this is an image"
-                          loading="lazy"
-                        />
-
-                        <div
-                          class="d-flex flex-wrap align-items-center text-sm"
-                        >
-                          <div class="text-body-secondary fw-semibold">
-                            Kade Castillo
-                          </div>
-                          <svg
-                            viewBox="0 0 2 2"
-                            width="3"
-                            height="3"
-                            aria-hidden="true"
-                            class="mx-2 text-body-secondary"
-                            fill="currentColor"
-                          >
-                            <circle cx="1" cy="1" r="1" />
-                          </svg>
-                          <div class="text-body-tertiary">
-                            CTO, The Wealth Inc.
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-
-                <li class="glide__slide h-auto">
-                  <div class="h-100 py-5">
-                    <div
-                      class="h-100 p-4 p-xl-5 bg-body d-flex flex-column rounded-3 rounded-sm-4 rounded-xl-5 shadow-sm"
-                    >
-                      <div class="text-body-emphasis">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="45"
-                          height="45"
-                          fill="currentColor"
-                          class="ms-n2 bi bi-quote rtl-flip"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
-                          />
-                        </svg>
-                      </div>
-
-                      <p class="text-body text-base leading-7 my-4">
-                        Transformed my web presence with their stellar design
-                        and dev services—truly a cut above the rest!
-                      </p>
-
-                      <div
-                        class="d-flex align-items-center column-gap-3 mt-auto"
-                      >
-                        <img
-                          src="./assets/img/small-team/st2.jpg"
-                          height="40"
-                          width="40"
-                          class="img-fluid rounded-circle"
-                          alt="this is an image"
-                          loading="lazy"
-                        />
-
-                        <div
-                          class="d-flex flex-wrap align-items-center text-sm"
-                        >
-                          <div class="text-body-secondary fw-semibold">
-                            Kade Castillo
-                          </div>
-                          <svg
-                            viewBox="0 0 2 2"
-                            width="3"
-                            height="3"
-                            aria-hidden="true"
-                            class="mx-2 text-body-secondary"
-                            fill="currentColor"
-                          >
-                            <circle cx="1" cy="1" r="1" />
-                          </svg>
-                          <div class="text-body-tertiary">
-                            CTO, The Wealth Inc.
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-
-                <li class="glide__slide h-auto">
-                  <div class="h-100 py-5">
-                    <div
-                      class="h-100 p-4 p-xl-5 bg-body d-flex flex-column rounded-3 rounded-sm-4 rounded-xl-5 shadow-sm"
-                    >
-                      <div class="text-body-emphasis">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="45"
-                          height="45"
-                          fill="currentColor"
-                          class="ms-n2 bi bi-quote rtl-flip"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
-                          />
-                        </svg>
-                      </div>
-
-                      <p class="text-body text-base leading-7 my-4">
-                        Transformed my web presence with their stellar design
-                        and dev services—truly a cut above the rest!
-                      </p>
-
-                      <div
-                        class="d-flex align-items-center column-gap-3 mt-auto"
-                      >
-                        <img
-                          src="./assets/img/small-team/st3.jpg"
-                          height="40"
-                          width="40"
-                          class="img-fluid rounded-circle"
-                          alt="this is an image"
-                          loading="lazy"
-                        />
-
-                        <div
-                          class="d-flex flex-wrap align-items-center text-sm"
-                        >
-                          <div class="text-body-secondary fw-semibold">
-                            Kade Castillo
-                          </div>
-                          <svg
-                            viewBox="0 0 2 2"
-                            width="3"
-                            height="3"
-                            aria-hidden="true"
-                            class="mx-2 text-body-secondary"
-                            fill="currentColor"
-                          >
-                            <circle cx="1" cy="1" r="1" />
-                          </svg>
-                          <div class="text-body-tertiary">
-                            CTO, The Wealth Inc.
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-
-                <li class="glide__slide h-auto">
-                  <div class="h-100 py-5">
-                    <div
-                      class="h-100 p-4 p-xl-5 bg-body d-flex flex-column rounded-3 rounded-sm-4 rounded-xl-5 shadow-sm"
-                    >
-                      <div class="text-body-emphasis">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="45"
-                          height="45"
-                          fill="currentColor"
-                          class="ms-n2 bi bi-quote rtl-flip"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"
-                          />
-                        </svg>
-                      </div>
-
-                      <p class="text-body text-base leading-7 my-4">
-                        Transformed my web presence with their stellar design
-                        and dev services—truly a cut above the rest!
-                      </p>
-
-                      <div
-                        class="d-flex align-items-center column-gap-3 mt-auto"
-                      >
-                        <img
-                          src="./assets/img/small-team/st4.jpg"
-                          height="40"
-                          width="40"
-                          class="img-fluid rounded-circle"
-                          alt="this is an image"
-                          loading="lazy"
-                        />
-
-                        <div
-                          class="d-flex flex-wrap align-items-center text-sm"
-                        >
-                          <div class="text-body-secondary fw-semibold">
-                            Kade Castillo
-                          </div>
-                          <svg
-                            viewBox="0 0 2 2"
-                            width="3"
-                            height="3"
-                            aria-hidden="true"
-                            class="mx-2 text-body-secondary"
-                            fill="currentColor"
-                          >
-                            <circle cx="1" cy="1" r="1" />
-                          </svg>
-                          <div class="text-body-tertiary">
-                            CTO, The Wealth Inc.
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 d-flex justify-content-center">
-            <a
-              href="javascript:;"
-              class="btn btn-lg btn-primary text-white text-sm fw-semibold"
-            >
-              Join Now
-            </a>
           </div>
         </div>
       </div>
     </div>
-    <!-- FOOTER -->
+
+    <!-- FAQs -->
+    <div id="faqs" class="overflow-hidden py-7 py-sm-8 py-xl-9">
+      <div class="container">
+        <div class="max-w-4xl mx-auto">
+          <h2
+            class="m-0 mb-4 text-body-emphasis tracking-tight leading-10 text-2xl fw-bold"
+          >
+            Frequently asked questions
+          </h2>
+
+          <div
+            class="accordion accordion-flush pt-2"
+            id="accordionFlushExample2"
+          >
+            <div
+              class="accordion-item pb-4"
+              style="
+                border-top: var(--bs-accordion-border-width) solid
+                  var(--bs-accordion-border-color);
+              "
+            >
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button align-items-start p-0 pt-4 text-body-emphasis leading-7 text-base shadow-none collapsed fw-semibold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  What is a pixel?
+                </button>
+              </h3>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample2"
+              >
+                <div
+                  class="accordion-body p-0 pe-5 mx-0 mb-0 mt-2 text-body-secondary leading-7 text-base"
+                >
+                  A pixel is the smallest unit of a digital image that displays
+                  a specific color and brightness.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item pb-4">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button align-items-start p-0 pt-4 text-body-emphasis leading-7 text-base shadow-none collapsed fw-semibold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  What is design thinking?
+                </button>
+              </h3>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample2"
+              >
+                <div
+                  class="accordion-body p-0 pe-5 mx-0 mb-0 mt-2 text-body-secondary leading-7 text-base"
+                >
+                  Design thinking is a human-centered approach to
+                  problem-solving that involves understanding the needs and
+                  emotions of the users, defining the problem, generating and
+                  testing ideas, and implementing solutions.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item pb-4">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button align-items-start p-0 pt-4 text-body-emphasis leading-7 text-base shadow-none collapsed fw-semibold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  What is a QR code?
+                </button>
+              </h3>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample2"
+              >
+                <div
+                  class="accordion-body p-0 pe-5 mx-0 mb-0 mt-2 text-body-secondary leading-7 text-base"
+                >
+                  A QR code is a type of barcode that can be scanned by a
+                  smartphone or a QR reader to access information, such as a
+                  website, a text, or an image.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item pb-4">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button align-items-start p-0 pt-4 text-body-emphasis leading-7 text-base shadow-none collapsed fw-semibold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFour"
+                >
+                  What is a wireframe?
+                </button>
+              </h3>
+              <div
+                id="flush-collapseFour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample2"
+              >
+                <div
+                  class="accordion-body p-0 pe-5 mx-0 mb-0 mt-2 text-body-secondary leading-7 text-base"
+                >
+                  A wireframe is a low-fidelity sketch or blueprint of a website
+                  or app that shows the layout, structure, and functionality.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item pb-4">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button align-items-start p-0 pt-4 text-body-emphasis leading-7 text-base shadow-none collapsed fw-semibold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFive"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseFive"
+                >
+                  What is a chatbot?
+                </button>
+              </h3>
+              <div
+                id="flush-collapseFive"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample2"
+              >
+                <div
+                  class="accordion-body p-0 pe-5 mx-0 mb-0 mt-2 text-body-secondary leading-7 text-base"
+                >
+                  A chatbot is a software program that simulates a conversation
+                  with a human user using natural language processing and
+                  artificial intelligence.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item pb-4">
+              <h3 class="accordion-header">
+                <button
+                  class="accordion-button align-items-start p-0 pt-4 text-body-emphasis leading-7 text-base shadow-none collapsed fw-semibold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseSix"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseSix"
+                >
+                  What is a podcast?
+                </button>
+              </h3>
+              <div
+                id="flush-collapseSix"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample2"
+              >
+                <div
+                  class="accordion-body p-0 pe-5 mx-0 mb-0 mt-2 text-body-secondary leading-7 text-base"
+                >
+                  A podcast is a digital audio file that can be downloaded or
+                  streamed online and listened to on various devices. Podcasts
+                  usually have a theme, topic, or genre.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
       <hr class="my-2 text-body-emphasis opacity-10" />
     </div>
@@ -833,11 +714,16 @@
     </button>
 
     <!-- Bootstrap JavaScript: Bundle with Popper -->
+    <script
+      type="text/javascript"
+      src="/assets/js/jquery-2.1.4.min.js"
+    ></script>
+
     <script src="./assets/libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/libraries/glide/glide.min.js"></script>
-
     <script src="./assets/libraries/aos/aos.js"></script>
     <script src="./assets/js/scripts.js"></script>
+    <script src="./assets/js/numscroller-1.0.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -853,8 +739,5 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
-    <!-- <script>
-      document.addEventListener("touchstart", function () {}, true);
-    </script> -->
   </body>
 </html>
