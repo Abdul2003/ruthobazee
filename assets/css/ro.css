@@ -1,3 +1,30 @@
+body {
+  background-color: black;
+  margin: 0 auto;
+}
+
+.parent {
+  background-color: black;
+  position: relative;
+}
+.navbar {
+  background-color: black !important;
+}
+.navbar-brand {
+  color: white !important;
+}
+.navbar-brand:hover {
+  color: rgb(240, 234, 234) !important;
+}
+nav .navbar-nav li a {
+  color: white !important;
+  font-size: 20px;
+}
+
+nav .navbar-nav li a:hover {
+  color: rgb(240, 234, 234) !important;
+}
+
 .publish-image img {
   width: 100%;
   height: auto;
@@ -9,6 +36,40 @@
   font-size: 25px;
 }
 
+.c-item {
+  height: 600px;
+}
+.c-img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.caption-title {
+  color: black;
+}
+.caption-description {
+  display: none;
+}
+.c-item:hover .c-img {
+  filter: brightness(50%);
+  transition: 0.4s;
+}
+.c-item:hover .caption-description {
+  display: block;
+  transition: 0.4s;
+}
+.c-item:hover .caption-title {
+  display: none;
+  transition: 0.4s;
+}
+@media only screen and (max-width: 824px) {
+  .c-img {
+    object-fit: cover;
+  }
+  .image {
+    object-position: 50%;
+  }
+}
 @media only screen and (max-width: 768px) {
   .publish-text {
     font-size: 20px;
